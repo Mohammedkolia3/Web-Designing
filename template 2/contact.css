@@ -1,0 +1,150 @@
+header {
+    height: 100px;
+    width: 100%;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+header .navi {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px gray;
+}
+
+.header1 .header-nav {
+    display: flex;
+    /* position: fixed; */
+}
+
+.header1 .header-nav .middle-nav ul {
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+
+.header1 .header-nav .logo a {
+    text-decoration: none;
+}
+
+.header1 .header-nav .middle-nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header1 .header-nav .middle-nav ul li:hover {
+    color: red;
+}
+
+.header1 .header-nav .middle-nav ul .drop-list:hover .dropdown-menu {
+    display: block !important;
+}
+
+.header1 .header-nav .right-search {
+    margin-left: 150px !important;
+    display: flex;
+    justify-content: space-evenly;
+    grid-gap: 30px;
+}
+
+.header1 .header-nav .right-search span {
+    font-size: 25px;
+}
+
+.header1 .header-nav .right-search button {
+    height: 55px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.inner-page .back-img img {
+    height: 300px;
+    width: 100%;
+    filter: brightness(30%);
+    position: absolute;
+    z-index: -1;
+}
+
+.inner-page .title {
+    position: relative;
+    z-index: 1;
+}
+
+.inner-page .container {
+    padding-top: 100px;
+}
+
+.inner-page .title .title1 h2 {
+    font-size: 60px;
+}
+
+.inner-page .title .title2 a {
+    text-decoration: none;
+}
+
+.img-map {
+    margin-top: 96px;
+}
+
+.img-map iframe {
+    height: 500px;
+    width: 100%;
+}
+
+.contact-info .info-contact .address .single-contact-infos .icon-box {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: rgb(225, 225, 225);
+}
+
+.contact-info .info-contact .address .single-contact-infos .text-box a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+}
+
+.contact-info .info-contact .get-in-touch form .form-top1 .form-top input {
+    height: 20px;
+    width: 310px;
+    padding: 26px;
+}
+
+.contact-info .info-contact .get-in-touch form .form-top1 .btn1 button {
+    height: 55px;
+    width: 190px;
+    border: none;
+}
+
+footer {
+    background-color: #060917;
+    height: 700px;
+    width: 100%;
+}
+
+footer .PixShotFooter .newsletter input {
+    height: 50px;
+    width: 430px;
+    border-radius: 10px;
+}
+
+footer .PixShotFooter .newsletter button {
+    height: 50px;
+    background-color: red;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+footer a {
+    text-decoration: none;
+}

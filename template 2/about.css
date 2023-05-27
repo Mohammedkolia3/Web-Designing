@@ -1,0 +1,261 @@
+header {
+    height: 100px;
+    width: 100%;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+header .navi {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px gray;
+}
+
+.header1 .header-nav {
+    display: flex;
+    /* position: fixed; */
+}
+
+.header1 .header-nav .middle-nav ul {
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+
+.header1 .header-nav .logo a {
+    text-decoration: none;
+}
+
+.header1 .header-nav .middle-nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header1 .header-nav .middle-nav ul li:hover {
+    color: red;
+}
+
+.header1 .header-nav .middle-nav ul .drop-list:hover .dropdown-menu {
+    display: block !important;
+}
+
+.header1 .header-nav .right-search {
+    margin-left: 150px !important;
+    display: flex;
+    justify-content: space-evenly;
+    grid-gap: 30px;
+}
+
+.header1 .header-nav .right-search span {
+    font-size: 25px;
+}
+
+.header1 .header-nav .right-search button {
+    height: 55px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.inner-page .back-img img {
+    height: 300px;
+    width: 100%;
+    filter: brightness(30%);
+    position: absolute;
+    z-index: -1;
+}
+
+.inner-page .title {
+    position: relative;
+    z-index: 1;
+}
+
+.inner-page .container {
+    padding-top: 100px;
+}
+
+.inner-page .title .title1 h2 {
+    font-size: 60px;
+}
+
+.inner-page .title .title2 a {
+    text-decoration: none;
+}
+
+.history {
+    margin-top: 200px;
+}
+
+.history .history-detail .history1 p {
+    line-height: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.history .history-detail .history2 p {
+    line-height: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.history .history-detail .history2 a {
+    text-decoration: none;
+}
+
+.history .history-detail .history2 button {
+    height: 55px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+.pictures {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
+
+.pictures .pictures-content .pictext p {
+    line-height: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.our-work .heading h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.our-work .our-work-content .content1 .content-text .text1 a {
+    text-decoration: none;
+}
+
+.our-work .our-work-content .content1 .content-text .text1 {
+    padding: 65px;
+}
+
+.our-work .our-work-content .content1 .content-text .text1 .btn {
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+}
+
+.our-work .our-work-content .content2 .content-text .text2 a {
+    text-decoration: none;
+}
+
+.our-work .our-work-content .content2 .content-text .text2 {
+    padding: 65px;
+}
+
+.our-work .our-work-content .content2 .content-text .text2 .btn {
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+}
+
+.create img {
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    position: absolute;
+    display: grid;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    filter: brightness(40%);
+    z-index: -1;
+}
+
+.create .bottom-info .header-section {
+    position: relative;
+}
+
+.create .bottom-info .header-section h3 {
+    font-size: 50px;
+    line-height: 52px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.create .bottom-info .header-section p {
+    line-height: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.create .bottom-info .header-section .btn {
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+}
+
+.team .title h3 {
+    font-weight: 700;
+}
+
+.team .team-member .team-member-1 .team-img {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.team .team-member .team-member-1 .social button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+}
+
+.team .team-member .team-member-1 .team-img .social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 700ms all ease;
+}
+
+.team .team-member .team-member-1 .team-img:hover .social {
+    height: 30%;
+}
+
+footer {
+    background-color: #060917;
+    height: 700px;
+    width: 100%;
+}
+
+footer .PixShotFooter .newsletter input {
+    height: 50px;
+    width: 430px;
+    border-radius: 10px;
+}
+
+footer .PixShotFooter .newsletter button {
+    height: 50px;
+    background-color: red;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+footer a {
+    text-decoration: none;
+}
