@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-bar {
+    background-color: rgb(52, 52, 52);
+}
+
+.top-bar .top a {
+    text-decoration: none;
+}
+
+.top-bar .top a:hover {
+    color: red !important;
+    transition: 1s all ease;
+}
+
+.navigation .navbar {
+    background-color: black !important;
+}
+
+.navigation .navbar .navbar-brand {
+    font-size: 30px !important;
+}
+
+.navigation form .ser {
+    top: 6px;
+    left: 177px;
+    font-size: 18px;
+}
+
+.navigation .pos-moon {
+    font-size: 20px;
+    color: white;
+}
+
+.home-section .banner-1 img {
+    filter: brightness(40%);
+    height: 700px;
+}
+
+.home-section .banner-1 .banner-content {
+    top: 0;
+    padding: 200px;
+}
+
+.home-section .banner-1 .banner-content h3 {
+    margin-bottom: 10px;
+    font-size: 110px;
+    line-height: 120px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-family: 'Londrina Outline', cursive;
+}
+
+.home-section .banner-1 .banner-content .btn {
+    height: 50px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: 21px
+}
+
+.home-section .banner-1 .banner-content .btn:hover {
+    color: white;
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.about-section {
+    background-color: rgb(52, 52, 52);
+}
+
+.about-section .content {
+    padding: 60px;
+}
+
+.about-section .content .img-border::after {
+    content: '';
+    position: absolute;
+    border: 8px solid lightgray;
+    right: -25px;
+    left: 25px;
+    bottom: 25px;
+    top: -25px;
+    border-radius: 10px;
+}
+
+.about-section .content .btn {
+    height: 55px;
+    width: 230px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.about-section .content .btn:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
+
+.music-class {
+    background-color: black;
+}
+
+.music-class .content .icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: rgba(54, 53, 53, 0.742);
+    margin-left: 155px;
+    color: red;
+}
+
+.music-class .content .icon:hover {
+    background-color: red;
+    color: white;
+    transition: 1s all ease;
+}
+
+.music-class .content a {
+    text-decoration: none;
+}
+
+.buzz h3 {
+    margin-top: 150px;
+}
+
+.buzz .btn {
+    height: 50px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: 21px
+}
+
+.buzz .btn:hover {
+    color: red;
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.video-section {
+    background-color: black;
+}
+
+.video-section img {
+    position: relative;
+    height: 500px;
+    filter: brightness(50%);
+}
+
+.video-section .play {
+    top: 280px;
+    left: 602px;
+}
+
+.video-section .play a {
+    border: transparent;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 82px;
+    background-color: white;
+}
+
+.video-section .play a span {
+    margin-left: 16px;
+    font-size: 30px;
+    color: red;
+}
+
+.join .join-content .text {
+    padding: 70px;
+}
+
+.join .text-logo .icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: rgb(200, 0, 0);
+    padding: 17px;
+}
+
+.updates form input {
+    height: 50px;
+    width: 470px;
+    border-radius: 50px 0 0 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    box-shadow: 1px 1px 5px white;
+}
+
+.updates form .btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(203, 0, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px red;
+}
+
+.updates .contact img {
+    height: 300px !important;
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(50%);
+}
+
+footer {
+    background-color: black;
+}
+
+footer .content {
+    padding: 50px;
+}
+
+footer .social-icons button {
+    border-radius: 50px;
+    background-color: #ff4c4c;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+}

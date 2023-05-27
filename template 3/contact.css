@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-bar {
+    background-color: rgb(52, 52, 52);
+}
+
+.top-bar .top a {
+    text-decoration: none;
+}
+
+.top-bar .top a:hover {
+    color: red !important;
+    transition: 1s all ease;
+}
+
+.navigation .navbar {
+    background-color: black !important;
+}
+
+.navigation .navbar .navbar-brand {
+    font-size: 30px !important;
+}
+
+.navigation form .ser {
+    top: 6px;
+    left: 177px;
+    font-size: 18px;
+}
+
+.navigation .pos-moon {
+    font-size: 20px;
+    color: white;
+}
+
+.inner-banner {
+    background: url(images/inner-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    height: 300px;
+}
+
+.inner-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+}
+
+.inner-banner a {
+    text-decoration: none;
+}
+
+.inner-banner .text {
+    padding-top: 100px;
+}
+
+.w3l-contact {
+    background-color: black;
+}
+
+.w3l-contact form input {
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(184, 184, 184);
+    color: white;
+}
+
+.w3l-contact form #Name,
+#Sender {
+    height: 50px;
+    width: 340px;
+    padding: 10px
+}
+
+.w3l-contact form #Subject,
+#Website {
+    height: 50px;
+    width: 726px;
+    padding: 10px
+}
+
+.w3l-contact form textarea {
+    height: 130px;
+    width: 726px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(184, 184, 184);
+}
+
+.w3l-contact form .btn {
+    height: 50px;
+    width: 170px;
+    background-color: red;
+    color: white;
+}
+
+.w3l-contact form .btn:hover {
+    border: 2px solid red;
+    color: red;
+    background-color: transparent;
+}
+
+.w3l-contact .contact-left a {
+    text-decoration: none;
+}
+
+.w3l-contact .contact-left {
+    width: 85%;
+    box-shadow: 1px 1px 20px rgb(126, 126, 126);
+    padding: 40px
+}
+
+footer {
+    background-color: black;
+}
+
+footer .content {
+    padding: 50px;
+}
+
+footer .social-icons button {
+    border-radius: 50px;
+    background-color: #ff4c4c;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+}

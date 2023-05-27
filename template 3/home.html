@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- bootstrap icon link (cdnjs) -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+    <section class="top-bar bg-dark">
+        <div class="container">
+            <div class="row top p-2">
+                <div class="col-xl-2 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <p class="text-secondary fs-5 mb-0">Have a question?</p>
+                </div>
+                <div class="col-xl-2 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span class="fa-solid fa-phone text-light mt-1 mr-1 p-1 fs-5"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <a href="" class="fs-5 text-light p-1">
+                                +1(21) 234 4567</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span class="fa-solid fa-envelope text-light mt-1 mr-1 p-1 fs-5"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <a href="" class="fs-5 text-light p-1">
+                                mail@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-2"></div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <div class="row mt-1">
+                        <div class="col-lg-3 ">
+                            <a href="" class="text-white"><span class="fa-brands fa-facebook-f fs-5"></span></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="" class="text-white"><span class="fa-brands fa-twitter fs-5"></span></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="" class="text-white"><span class="fa-brands fa-instagram fs-5"></span></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="" class="text-white"><span class="fa-brands fa-linkedin-in fs-5"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="navigation">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
+            <div class="container">
+                <a class="navbar-brand text-light fw-bold" href="#">
+                    <span class="fa-solid fa-music text-danger "></span>
+                    Musical
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-50 d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger fw-bold fs-6" aria-current="page"
+                                href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-6  fw-bold" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-6  fw-bold" href="price.html">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white fs-6  fw-bold" href="" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                                <li><a class="dropdown-item" href="#">404 Page</a></li>
+                                <li><a class="dropdown-item" href="#">Element Page</a></li>
+                                <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-6 fw-bold" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex form1 position-relative" role="search">
+                        <input class="form-control me-2 rounded-5" type="search" placeholder="Search"
+                            aria-label="Search" list="searching" />
+                        <datalist name="" id="searching">
+                            <option value="Songs"></option>
+                            <option value="Music"></option>
+                            <option value="Instrumental"></option>
+                        </datalist>
+                        <span class="bi bi-search ser position-absolute"></span>
+                    </form>
+                    <span class="bi bi-moon pos-moon"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="home-section">
+        <!-- Swiper -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item banner-1 active">
+                    <img src="images/banner1.jpg" class="d-block w-100 position-relative" alt="...">
+                    <div class="content banner-content HomePageBanner position-absolute">
+                        <h6 class="text-white h5 fw-bold">Music Beats</h6>
+                        <h3>Music for Everyone</h3>
+                        <a href="#url" class="btn btn-style mt-4">
+                            Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item banner-1">
+                    <img src="images/banner2.jpg" class="d-block w-100 position-relative" alt="...">
+                    <div class="content banner-content HomePageBanner position-absolute">
+                        <h6 class="text-white h5 fw-bold">Start Listening</h6>
+                        <h3>Feel the Rhythm</h3>
+                        <a href="#url" class="btn btn-style mt-4">
+                            Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item banner-1">
+                    <img src="images/banner3.jpg" class="d-block w-100 position-relative" alt="...">
+                    <div class="content banner-content HomePageBanner position-absolute">
+                        <h6 class="text-white h5 fw-bold">Feel Music</h6>
+                        <h3>Best Jazz Beats</h3>
+                        <a href="#url" class="btn btn-style mt-4">
+                            Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item banner-1">
+                    <img src="images/banner4.jpg" class="d-block w-100 position-relative" alt="...">
+                    <div class="content banner-content HomePageBanner position-absolute">
+                        <h6 class="text-white h5 fw-bold">Discover Your Talent</h6>
+                        <h3>Pick Your Instrument</h3>
+                        <a href="#url" class="btn btn-style mt-4">
+                            Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="container">
+            <div class="row content">
+                <div class="col-xl-6 col-auto col-sm-12 col-md-12 col-lg-12">
+                    <h3 class="title-style display-5 fw-bold text-white">Welcome to
+                        <span class="fw-lighter">Musical</span>
+                    </h3>
+                    <p class="mt-4 text-light fw-lighter fs-5">At corrupti odit At iure facere,
+                        porro repellat officia quas, dolores magnam assumenda soluta odit
+                        harum maiores fugiat accusamus eos nulla. Iure voluptatibus explicabo
+                        officia.</p>
+                    <p class="mt-4 text-light fw-lighter fs-5 pb-dm-3">Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. At, corrupti
+                        odit? At iure facere,
+                        porro repellat officia quas, dolores magnam assumenda soluta odit
+                        harum.</p>
+                    <a href="#url" class="btn btn-style mt-5">
+                        Know more about us</a>
+                </div>
+                <div class="col-xl-6 col-auto col-sm-12 col-md-12 col-lg-12">
+                    <div class="position-relative img-border">
+                        <img src="images/about.jpg" class="img-fluid rounded-2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="music-class">
+        <div class="container">
+            <div class="title text-center p-5">
+                <h1 class="text-white display-4 fw-bold">Our Best Music <span class="fw-lighter">Classes </span></h1>
+            </div>
+            <div class="row content p-5 mt-3">
+                <div class="col-xl-4 text-center col-auto col-sm-12 col-md-6 col-lg-6">
+                    <div class="icon mb-3">
+                        <span class="fa-solid fa-music p-3 fs-1"></span>
+                    </div>
+                    <h4><a href="" class="title-head mt-4 mb-2 text-white">
+                            Piano</a></h4>
+                    <p class="text-para text-light">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam fugiat
+                        accusamus eos.
+                    </p>
+                </div>
+                <div class="col-xl-4 text-center col-auto col-sm-12 col-md-6 col-lg-6">
+                    <div class="icon mb-3">
+                        <span class="fa-solid fa-guitar p-3 fs-1"></span>
+                    </div>
+                    <h4><a href="" class="title-head mt-4 mb-2 text-white">
+                            Guitar</a></h4>
+                    <p class="text-para text-light">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam fugiat
+                        accusamus eos.
+                    </p>
+                </div>
+                <div class="col-xl-4 text-center col-auto mt-md-5 mt-xl-0 col-sm-12 col-md-6 col-lg-6">
+                    <div class="icon mb-3">
+                        <span class="fa-solid fa-drum p-3 fs-1"></span>
+                    </div>
+                    <h4><a href="" class="title-head mt-4 mb-2 text-white">
+                            Trumpet</a></h4>
+                    <p class="text-para text-light">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam fugiat
+                        accusamus eos.
+                    </p>
+                </div>
+                <div class="col-xl-4 text-center mt-5 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <div class="icon mb-3">
+                        <span class="fa-solid fa-compact-disc p-3 fs-1"></span>
+                    </div>
+                    <h4><a href="" class="title-head mt-4 mb-2 text-white">
+                            DJ</a></h4>
+                    <p class="text-para text-light">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam fugiat
+                        accusamus eos.
+                    </p>
+                </div>
+                <div class="col-xl-4 text-center mt-5 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <div class="icon mb-3">
+                        <span class="fa-solid fa-play p-3 ms-1 mt-1 fs-1"></span>
+                    </div>
+                    <h4><a href="" class="title-head mt-4 mb-2 text-white">
+                            Music</a></h4>
+                    <p class="text-para text-light">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam fugiat
+                        accusamus eos.
+                    </p>
+                </div>
+                <div class="col-xl-4 text-center mt-5 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <div class="icon mb-3">
+                        <span class="fa-solid fa-headphones-alt p-3 fs-1"></span>
+                    </div>
+                    <h4><a href="" class="title-head mt-4 mb-2 text-white">
+                            Listening</a></h4>
+                    <p class="text-para text-light">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam fugiat
+                        accusamus eos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="buzz bg-dark">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-xl-6 col-auto col-sm-12 col-md-12 col-lg-12">
+                    <h3 class="title-style display-4 fw-bold text-white">Listen to
+                        <span class="fw-lighter">Music</span>
+                        Buzz anywhere
+                    </h3>
+                    <h6 class="sub-title mt-md-4 mt-md-5 mt-4 h5 text-white">Where words leave off, Music
+                        Begins.</h6>
+                    <a href="#url" class="btn btn-style mt-lg-5 mt-4">
+                        View Classes</a>
+                </div>
+                <div class="col-xl-3  col-auto col-sm-12 col-md-12 col-lg-12">
+                    <a href=""><img src="images/img1.jpg" alt="" class="img-fluid rounded-2"></a>
+                    <a href=""><img src="images/img3.jpg" alt="" class="img-fluid mt-4 rounded-2"></a>
+                </div>
+                <div class="col-xl-3  col-auto col-sm-12 col-md-12 col-lg-12">
+                    <a href=""><img src="images/img4.jpg" alt="" class="img-fluid rounded-2"></a>
+                    <a href=""><img src="images/img2.jpg" alt="" class="img-fluid mt-4 rounded-2"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video-section" style="height: 632px;">
+        <div class="container">
+            <div class="row" style="height: 632px;">
+                <div class="col-xl-12 mt-5" style="height: 570px;">
+                    <img src="images/banner1.jpg" class="img-fluid rounded-2 w-100" alt="">
+                </div>
+                <div class="play-button position-absolute w-25">
+                    <div class="position-relative play">
+                        <a href="">
+                            <span class="video-play-icon icon1">
+                                <span class="fa fa-play"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="join bg-dark">
+        <div class="container">
+            <div class="row join-content p-5">
+                <div class="col-xl-6 col-auto col-sm-12 col-md-12 col-lg-12">
+                    <img src="images/about4.jpg" class="img-fluid rounded-2" alt="">
+                </div>
+                <div class="col-xl-6 text col-auto col-sm-12 col-md-12 col-lg-12">
+                    <h1 class="text-white fw-bold display-4 mb-4">Join The <span class="fw-lighter">Musical</span></h1>
+                    <p class="text-light mb-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in
+                        ligula. Semper at
+                        tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="row text-logo mt-5">
+                        <div class="col-lg-2 p-2">
+                            <div class="icon">
+                                <span class="fa-solid fa-volume-up text-white fs-3"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <h4 class="text-white fs-3">Exclusive Releases</h4>
+                            <p class="text-light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt
+                                mollit.</p>
+                        </div>
+                    </div>
+                    <div class="row text-logo mt-5">
+                        <div class="col-lg-2 p-2">
+                            <div class="icon">
+                                <span class="fa-solid fa-icons text-white fs-2"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <h4 class="text-white fs-3">Full DJ Sets & Podcasts</h4>
+                            <p class="text-light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt
+                                mollit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="updates bg-dark">
+        <div class="container">
+            <div class="row p-5 text-center">
+                <div class="col-xl-12">
+                    <h1 class="fw-bold display-4 text-white mb-3">Subscribe to our daily <span
+                            class="fw-lighter">updates!
+                        </span></h1>
+                    <p class="text-light mb-5 fs-5">Enter your email address to register to our newsletter</p>
+                    <form action="" style="width: 85%;">
+                        <input type="email" placeholder="Enter your email" class="position-relative">
+                        <a href="" class="btn btn-primary position-absolute">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row content">
+                <div class="col-xl-3 text-left col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white mt-5">About</h2>
+                    <p class="text-light my-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in
+                        ligula. Semper at
+                        tempufddfel.Lorem ipsum dolor sit,l. Lorem ipsum dolor sit, amet elit.</p>
+                    <div class="social-icons">
+                        <button><a href="" class="text-white"><span class="fa-brands fa-facebook-f"></span></a></button>
+                        <button><a href="" class="text-white"><span class="fa-brands fa-twitter"></span></a></button>
+                        <button><a href="" class="text-white"><span class="fa-brands fa-instagram"></span></a></button>
+                        <button><a href="" class="text-white"><span
+                                    class="fa-brands fa-linkedin-in"></span></a></button>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white ms-5 mt-5">Links</h2>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white ms-5 mt-5">Explore</h2>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white ms-5 mt-5">Twitter Feed</h2>
+                </div>
+            </div>
+            <hr class="border border-1 border-white">
+            <div class="row text-center mt-5">
+                <div class="col-xl-12">
+                    <p class="copy-text CopyRights text-white">
+                        &copy; 2023 Musical. All Rights Reserved |
+                        WordPress Theme by
+                        W3Layouts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

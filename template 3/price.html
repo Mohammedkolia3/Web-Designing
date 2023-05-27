@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="price.css">
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- bootstrap icon link (cdnjs) -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+    <section class="top-bar bg-dark">
+        <div class="container">
+            <div class="row top p-2">
+                <div class="col-xl-2 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <p class="text-secondary fs-5 mb-0">Have a question?</p>
+                </div>
+                <div class="col-xl-2 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span class="fa-solid fa-phone text-light mt-1 mr-1 p-1 fs-5"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <a href="" class="fs-5 text-light p-1">
+                                +1(21) 234 4567</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span class="fa-solid fa-envelope text-light mt-1 mr-1 p-1 fs-5"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <a href="" class="fs-5 text-light p-1">
+                                mail@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-2"></div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-2">
+                    <div class="row mt-1">
+                        <div class="col-lg-3 ">
+                            <a href="" class="text-white"><span class="fa-brands fa-facebook-f fs-5"></span></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="" class="text-white"><span class="fa-brands fa-twitter fs-5"></span></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="" class="text-white"><span class="fa-brands fa-instagram fs-5"></span></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="" class="text-white"><span class="fa-brands fa-linkedin-in fs-5"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="navigation">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
+            <div class="container">
+                <a class="navbar-brand text-light fw-bold" href="#">
+                    <span class="fa-solid fa-music text-danger "></span>
+                    Musical
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-50 d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-bold fs-6" aria-current="page"
+                                href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-6  fw-bold" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger fs-6  fw-bold" href="price.html">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white fs-6  fw-bold" href="" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                                <li><a class="dropdown-item" href="#">404 Page</a></li>
+                                <li><a class="dropdown-item" href="#">Element Page</a></li>
+                                <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-6 fw-bold">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex form1 position-relative" role="search">
+                        <input class="form-control me-2 rounded-5" type="search" placeholder="Search"
+                            aria-label="Search" list="searching" />
+                        <datalist name="" id="searching">
+                            <option value="Songs"></option>
+                            <option value="Music"></option>
+                            <option value="Instrumental"></option>
+                        </datalist>
+                        <span class="bi bi-search ser position-absolute" href="contact.html"></span>
+                    </form>
+                    <span class="bi bi-moon pos-moon"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="back-img">
+            <img src="images/inner-banner.jpg" alt="" class="position-absolute">
+            <div class="text position-relative text-center">
+                <h4 class="text-white fw-bold fs-1">Pricing page</h4>
+                <h6 class="text-white"><a href="home.html" rel=""
+                        class="text-white">Home</a>&nbsp;&nbsp;&#187;&nbsp;&nbsp;Pricing
+                    page</h6>
+            </div>
+    </section>
+    <section class="price-plan bg-dark">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-xl-4 plan-1 text-left col-auto col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="fw-bold text-white display-5 mb-4">Our <span class="fw-lighter">Pricing </span> Plan!
+                    </h1>
+                    <p class="text-light mb-4">Aptent taciti sociosqu ad litora conubia nostra, per inceptos himenaeos.
+                        Aenean volutpat
+                        elementum ante, id eleifend eros luctus sit.</p>
+                    <a href="" class="btn btn-style mt-4">
+                        <span>See all Prices</span></a>
+                </div>
+                <div class="col-xl-4 plan-2 p-5 col-auto col-sm-12 col-md-12 col-lg-6">
+                    <div class="price-box">
+                        <h3 class="text-price text-white fs-2 mb-3">Standard Plan </h3>
+                        <h4 class="text-danger display-4 fw-medium">$39</h4>
+                        <span class="text-light">Per Month</span>
+                        <ul class="mt-4 ps-0">
+                            <li class="text-white fs-5 mb-1"><i class="fa-solid fa-check-circle text-danger fs-5"></i>
+                                Basic Techniques</li>
+                            <li class="text-white fs-5 mb-1"><i class="fa-solid fa-check-circle text-danger fs-5"></i>
+                                Types of Music
+                            </li>
+                            <li class="text-white fs-5 mb-1"><i class="fa-solid fa-check-circle text-danger fs-5"></i>
+                                Jazz Basics</li>
+                            <li class="text-secondary fs-5 mb-1"> <del><span><i
+                                            class="fa-solid fa-check-circle text-secondary fs-5"></i> Effective
+                                        Mixing</span></del></li>
+                            </li>
+                        </ul>
+                        <a href="#url" class="btn btn-style mt-4">
+                            <span>Choose Plan</span></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 plan-2 p-5 mt-3 col-auto col-sm-12 col-md-12 col-lg-6">
+                    <div class="price-box-2">
+                        <h3 class="text-price text-white fs-2 mb-3">Extended Plan</h3>
+                        <h4 class="text-danger display-4 fw-medium">$69</h4>
+                        <span class="text-light">Per Month</span>
+                        <ul class="mt-4 ps-0">
+                            <li class="text-white fs-5 mb-1"><i class="fa-solid fa-check-circle text-danger fs-5"></i>
+                                Basic Techniques</li>
+                            <li class="text-white fs-5 mb-1"><i class="fa-solid fa-check-circle text-danger fs-5"></i>
+                                Types of Music
+                            </li>
+                            <li class="text-white fs-5 mb-1"><i class="fa-solid fa-check-circle text-danger fs-5"></i>
+                                Jazz Basics</li>
+                            <li class="text-white fs-5 mb-1"><span><i
+                                        class="fa-solid fa-check-circle text-danger fs-5"></i> Effective
+                                    Mixing</span></li>
+                            </li>
+                        </ul>
+                        <a href="#url" class="btn btn-style mt-4">
+                            <span>Choose Plan</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row content">
+                <div class="col-xl-3 text-left col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white mt-5">About</h2>
+                    <p class="text-light my-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in
+                        ligula. Semper at
+                        tempufddfel.Lorem ipsum dolor sit,l. Lorem ipsum dolor sit, amet elit.</p>
+                    <div class="social-icons">
+                        <button><a href="" class="text-white"><span class="fa-brands fa-facebook-f"></span></a></button>
+                        <button><a href="" class="text-white"><span class="fa-brands fa-twitter"></span></a></button>
+                        <button><a href="" class="text-white"><span class="fa-brands fa-instagram"></span></a></button>
+                        <button><a href="" class="text-white"><span
+                                    class="fa-brands fa-linkedin-in"></span></a></button>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white ms-5 mt-5">Links</h2>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white ms-5 mt-5">Explore</h2>
+                </div>
+                <div class="col-xl-3 col-auto col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-white ms-5 mt-5">Twitter Feed</h2>
+                </div>
+            </div>
+            <hr class="border border-1 border-white">
+            <div class="row text-center mt-5">
+                <div class="col-xl-12">
+                    <p class="copy-text CopyRights text-white">
+                        &copy; 2023 Musical. All Rights Reserved |
+                        WordPress Theme by
+                        W3Layouts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

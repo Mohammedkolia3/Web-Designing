@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-bar {
+    background-color: rgb(52, 52, 52);
+}
+
+.top-bar .top a {
+    text-decoration: none;
+}
+
+.top-bar .top a:hover {
+    color: red !important;
+    transition: 1s all ease;
+}
+
+.navigation .navbar {
+    background-color: black !important;
+}
+
+.navigation .navbar .navbar-brand {
+    font-size: 30px !important;
+}
+
+.navigation form .ser {
+    top: 6px;
+    left: 177px;
+    font-size: 18px;
+}
+
+.navigation .pos-moon {
+    font-size: 20px;
+    color: white;
+}
+
+.banner .back-img img {
+    height: 300px;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.banner .text {
+    top: 100px;
+}
+
+.banner .text a {
+    text-decoration: none;
+}
+
+.price-plan {
+    margin-top: 225px;
+}
+
+.price-plan .plan-1 {
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+.price-plan .plan-1 a {
+    text-decoration: none;
+}
+
+.price-plan .plan-1 .btn {
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+}
+
+.price-plan .plan-2 .price-box {
+    height: 500px;
+    width: 350px;
+    background-color: #19211e;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 60px;
+}
+
+.price-plan .plan-2 .price-box .btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+
+.price-plan .plan-2 .price-box-2 {
+    height: 470px;
+    width: 350px;
+    background-color: #19211e;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 60px;
+}
+
+.price-plan .plan-2 .price-box-2 .btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer .content {
+    padding: 50px;
+}
+
+footer .social-icons button {
+    border-radius: 50px;
+    background-color: #ff4c4c;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-bar {
+    background-color: rgb(52, 52, 52);
+}
+
+.top-bar .top a {
+    text-decoration: none;
+}
+
+.top-bar .top a:hover {
+    color: red !important;
+    transition: 1s all ease;
+}
+
+.navigation .navbar {
+    background-color: black !important;
+}
+
+.navigation .navbar .navbar-brand {
+    font-size: 30px !important;
+}
+
+.navigation form .ser {
+    top: 6px;
+    left: 177px;
+    font-size: 18px;
+}
+
+.navigation .pos-moon {
+    font-size: 20px;
+    color: white;
+}
+
+.banner .back-img img {
+    height: 300px;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.banner .text {
+    top: 100px;
+}
+
+.banner .text a {
+    text-decoration: none;
+}
+
+.about-section {
+    background-color: rgb(52, 52, 52);
+    margin-top: 225px;
+}
+
+.about-section .content {
+    padding: 60px;
+}
+
+.about-section .content .img-border::after {
+    content: '';
+    position: absolute;
+    border: 8px solid lightgray;
+    right: -25px;
+    left: 25px;
+    bottom: 25px;
+    top: -25px;
+    border-radius: 10px;
+}
+
+.about-section .content .btn {
+    height: 55px;
+    width: 230px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.about-section .content .btn:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
+
+.our-team .team-img .image img {
+    height: 410px;
+    transition: 1s all ease;
+    width: 100%;
+}
+
+.our-team .team-img .image {
+    overflow: hidden;
+    width: 375px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.our-team .team-img .image img:hover {
+    transform: scale(1.2);
+}
+
+.our-team .team-img .image .social {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+
+}
+
+.our-team .team-img .image .social ul li a {
+    color: red;
+    display: block;
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.our-team .team-img .image:hover .social {
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+
+.our-team .team-img .image .social ul li {
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.our-team a {
+    text-decoration: none;
+}
+
+.our-team a:hover {
+    color: red !important;
+    transition: 1s all ease;
+}
+
+footer {
+    background-color: black;
+}
+
+footer .content {
+    padding: 50px;
+}
+
+footer .social-icons button {
+    border-radius: 50px;
+    background-color: #ff4c4c;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
