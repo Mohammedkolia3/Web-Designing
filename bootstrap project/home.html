@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homecustom.css">
+    <link rel="stylesheet" href="custommedia.css">
+    <script src="homecounter.js"></script>
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- bootstrap icon link (cdnjs) -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" />
+
+    <!-- nav-scroll -->
+    <script>
+        $(document).ready(function () {
+            $section = $(".navi");
+            $(windows).scroll(function (event) {
+                $currentval = $(this).scrollTop();
+                if ($currentval > 0) {
+                    $section.addClass("menu-fixed");
+                } else {
+                    $section.removeClass("menu-fixed");
+                }
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <header class="navigation">
+        <div class="navi">
+            <div class="container-fluid">
+                <div class="row header-nav">
+                    <nav class="navbar navbar-expand-lg p-3 nav-bar-pos">
+                        <div class="container">
+                            <a class="navbar-brand logo-text text-light" href="#">
+                                <span class="fa fa-headphones mr-1 text-light me-2" aria-hidden="true"></span>Call
+                                Center
+                            </a>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-4 mb-2 mb-lg-0 w-75 d-flex justify-content-center">
+                                    <li class="nav-item fs-5">
+                                        <a class="nav-link text-light" aria-current="page" href="home.html">Home</a>
+                                    </li>
+                                    <li class="nav-item fs-5">
+                                        <a class="nav-link text-light" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item fs-5">
+                                        <a class="nav-link text-light" href="services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item dropdown fs-5">
+                                        <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Blog Post</a></li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">404 Pages</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Landing Pages</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Element Pages</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item fs-5">
+                                        <a class="nav-link text-light" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <div class="search d-flex justify-content-end">
+                                    <a href=""><span
+                                            class="bi bi-search ser text-light d-flex justify-content-end "></span></a>
+                                    <span class="bi bi-moon d-flex justify-content-end"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- home-section -->
+    <section class="home-section">
+        <div class="back-img">
+        </div>
+        <div class="row home-content">
+            <div class="container">
+                <div class="col-lg-6 position-relative mt-5 ms-5">
+                    <h3 class="text-white mb-3 title display-4 fw-bold">We Offer Best Quality<br>
+                        Customer <span class="type-js"><span class="text-js">
+                                Service! </span></span></h3>
+                    <p class="lead text-white fw-lighter fs-4">Call Center and Telemarketing Website Theme,
+                        <br> We Providing Best Service & 24/7 Support.
+                    </p>
+                    <div class="mt-5">
+                        <a class="btn btn-style-white" href="about">View Our Works</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- about us -->
+    <section class="about-section my-5">
+        <div class="container">
+            <div class="row about-content">
+                <div class="col-lg-6 col-md-12 col-auto about-text">
+                    <div class="title display-5 fw-bold mb-4">About Us</div>
+                    <p class="text-secondary fs-5 fw-lighter mb-4">Orci urna. In et augue ornare, tempor massa in,
+                        luctus
+                        sapien. Proin
+                        a diam et dui fermentum
+                        dolor molestie vel id neque. Donec sed tempus enim, a congue risus. Pellen tesqu.</p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <span class="fa-solid fa-thumbs-up fs-1 mb-3"></span>
+                            <h5 class="w3l-feature-text my-2 fs-3 fw-medium">
+                                Our Mission</h5>
+                            <p class="text-secondary fw-lighter">In a diam et dui elit, orci urna vel id neque.
+                                Donec
+                                sed
+                                tempus enims.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <span class="fab fa-angellist fs-1 mb-3 " aria-hidden="true"></span>
+                            <h5 class="w3l-feature-text my-2 fs-3 fw-medium">
+                                Our Vision</h5>
+                            <p class="text-secondary fw-lighter">In a diam et dui elit, orci urna vel id neque.
+                                Donec
+                                sed
+                                tempus enims.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-auto">
+                    <img src="images/about.jpg" alt="" class="img-fluid rounded-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+    <section class="services my-5">
+        <div class="container">
+            <div class="title text-center pt-5">
+                <h3 class="title-style mb-2 fw-bold display-5">
+                    We Provide Best Services </h3>
+                <p class="lead fw-light fs-4 mx-5 text-secondary">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque,
+                    eaque ipsa quae ab illo inventore. </p>
+            </div>
+            <div class="row service-content mx-5 p-3">
+                <div class="col-lg-6 pe-lg-3 mt-5 col-auto col-sm-12 col-md-12">
+                    <div class=" row text-box rounded-2">
+                        <div class="col-lg-1">
+                            <span class="fa fa-headphones fs-3 mt-1" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <h5><a href="" class="text-dark h3">24/7 Call Center Service</a>
+                            </h5>
+                            <p class="fw-light text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean egestas magna at
+                                porttitor vehicula nullam augue ipsum dolor.</p>
+                            <a href="services" class="btn read-button d-flex align-items-center mt-4 p-0">Read More<i
+                                    class="fa fa-angle-double-right ml-1 ms-2" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 col-auto col-sm-12 col-md-12">
+                    <div class=" row text-box rounded-2">
+                        <div class="col-lg-1">
+                            <span class="fa fa-bullhorn fs-3 mt-1" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <h5><a href="" class="text-dark h3">Debt Collection</a>
+                            </h5>
+                            <p class="fw-light text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean egestas magna at
+                                porttitor vehicula nullam augue ipsum dolor.</p>
+                            <a href="services" class="btn read-button d-flex align-items-center mt-4 p-0">Read More<i
+                                    class="fa fa-angle-double-right ml-1 ms-2" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 col-auto col-sm-12 col-md-12">
+                    <div class=" row text-box rounded-2">
+                        <div class="col-lg-1">
+                            <span class="fa fa-volume-control-phone fs-3 mt-1" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <h5><a href="" class="text-dark h3">Lead Generation</a>
+                            </h5>
+                            <p class="fw-light text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean egestas magna at
+                                porttitor vehicula nullam augue ipsum dolor.</p>
+                            <a href="services" class="btn read-button d-flex align-items-center mt-4 p-0">Read More<i
+                                    class="fa fa-angle-double-right ml-1 ms-2" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 col-auto col-sm-12 col-md-12">
+                    <div class=" row text-box rounded-2">
+                        <div class="col-lg-1">
+                            <span class="fa fa-handshake fs-3 mt-1" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <h5><a href="" class="text-dark h3">IT Development</a>
+                            </h5>
+                            <p class="fw-light text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean egestas magna at
+                                porttitor vehicula nullam augue ipsum dolor.</p>
+                            <a href="services" class="btn read-button d-flex align-items-center mt-4 p-0">Read More<i
+                                    class="fa fa-angle-double-right ml-1 ms-2" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-5 mt-4 text-center end-button ">
+                <a class="btn btn-style-white btn-style-primary" href="services">Learn More Services</a>
+            </div>
+        </div>
+    </section>
+    <!-- stats -->
+    <section class="stats mt-5">
+        <div class="back-img">
+            <img src="images/banner1 (1).jpg" alt="" class="position-absolute">
+        </div>
+        <div class="container">
+            <div class="row title justify-content-center position-relative">
+                <div class="title-content col-lg-8 text-center">
+                    <h3 class="title-style text-white mb-2 display-5 fw-bold">
+                        Our Amazing Statistics</h3>
+                    <p class="lead text-white fs-5">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque,
+                        eaque ipsa quae ab illo inventore. </p>
+                </div>
+            </div>
+            <div class="row justify-content-center position-relative mt-5 p-5">
+                <div class="col-lg-3 text-center col-auto col-sm-6 col-md-6 mt-md-0">
+                    <span class="fa fa-users display-5 text-white mb-3"></span>
+                    <div class="counter1 text-white display-4 fw-bold mb-3">1286</div>
+                    <p class="count-text text-white fs-4 mb-3">
+                        Employees</p>
+                </div>
+                <div class="col-lg-3 text-center col-auto col-sm-6 col-md-6 mt-md-0">
+                    <span class="fa fa-smile display-5 text-white mb-3"></span>
+                    <div class="counter2 text-white display-4 fw-bold mb-3">36076</div>
+                    <p class="count-text text-white fs-4 mb-3">
+                        Statisfication</p>
+                </div>
+                <div class="col-lg-3 text-center col-auto col-sm-6 col-md-6 mb-5 mt-md-0">
+                    <span class="fa fa-phone display-5 text-white mb-3"></span>
+                    <div class="counter3 text-white display-4 fw-bold mb-3">16300</div>
+                    <p class="count-text text-white fs-4 mb-3">
+                        Calls Per Day</p>
+                </div>
+                <div class="col-lg-3 text-center col-auto col-sm-6 col-md-6 mb-5 mt-md-0">
+                    <span class="fa fa-trophy display-5 text-white mb-3"></span>
+                    <div class="counter4 text-white display-4 fw-bold mb-3">10630</div>
+                    <p class="count-text text-white fs-4 mb-3">
+                        Win awards</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- testimonals -->
+    <section class="testimonals my-5 p-5">
+        <div class="container">
+            <div class="row title text-center mb-5 ">
+                <h3 class="title-style mb-2 text-dark display-5 fw-medium">
+                    Testimonials</h3>
+            </div>
+            <div class="row content">
+                <div class="col-xl-4 col-lg-6 col-sm-12 col-md-6 col-p-auto">
+                    <p class="text-secondary fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adip iscing elit sed.
+                        orci urna. In et augue ornare,
+                        tempor massa in, luctus sapien. Proin a diam et dui fermentum dolor molestie vel id neque
+                        euismod massa a quam viverra et.</p>
+                    <div class="row p1">
+                        <div class="col-lg-2 img">
+                            <img src="images/testi1.jpg" alt="" class=" rounded-5">
+                        </div>
+                        <div class="col-lg-10">
+                            <h6 class="text-dark fs-4 ">
+                                Theo Hall </h6>
+                            <small class="mb-0 fs-6 text-secondary">Marketing Manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-sm-12 col-md-6 col-p-auto">
+                    <p class="text-secondary fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adip iscing elit sed.
+                        orci urna. In et augue ornare,
+                        tempor massa in, luctus sapien. Proin a diam et dui fermentum dolor molestie vel id neque
+                        euismod massa a quam viverra et.</p>
+                    <div class="row p1">
+                        <div class="col-lg-2 img">
+                            <img src="images/testi2.jpg" alt="" class=" rounded-5">
+                        </div>
+                        <div class="col-lg-10">
+                            <h6 class="text-dark fs-4 ">
+                                Jenna John </h6>
+                            <small class="mb-0 fs-6 text-secondary">Co-founder of Company</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 mt-lg-5 mt-xl-0 mt-md-5 col-lg-6 col-sm-12 col-md-6 col-p-auto">
+                    <p class="text-secondary fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adip iscing elit sed.
+                        orci urna. In et augue ornare,
+                        tempor massa in, luctus sapien. Proin a diam et dui fermentum dolor molestie vel id neque
+                        euismod massa a quam viverra et.</p>
+                    <div class="row p1">
+                        <div class="col-lg-2 img">
+                            <img src="images/testi3.jpg" alt="" class=" rounded-5">
+                        </div>
+                        <div class="col-lg-10">
+                            <h6 class="text-dark fs-4 ">
+                                William Due </h6>
+                            <small class="mb-0 fs-6 text-secondary">Team Leader</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs -->
+    <section class="blogs my-5 p-5 bg-light">
+        <div class="container">
+            <div class="row title text-center mb-5">
+                <h3 class="title-style mb-2 text-dark display-5 fw-medium">
+                    Our Latest Blog</h3>
+                <p class="lead text-secondary fs-4">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br> doloremque, eaque
+                    ipsa
+                    quae ab illo inventore. </p>
+            </div>
+            <div class="row blogs-content">
+                <div
+                    class="col-lg-6 mx-lg-0 mt-lg-5 mt-xl-0 col-xl-4 col-sm-12 col-md-12  mx-md-5 mt-sm-5 col-py-auto col-auto">
+                    <div class="card" style="width: 22rem;">
+                        <a href=""><img src="images/s1.jpg" class="card-img-top img-fluid" alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text"> April 29, 2021 - <span>corporate</span></p>
+                            <h5 class="card-title fs-4">Hello world!</h5>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-6 mt-lg-5 mt-xl-0 col-xl-4 col-sm-12 col-md-12  mx-md-5 mx-lg-0 mt-sm-5 col-py-auto col-auto">
+                    <div class="card" style="width: 22rem;">
+                        <a href=""><img src="images/blog2.jpg" class="card-img-top img-fluid" alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text"> April 28, 2021 - <span>Industry</span></p>
+                            <h5 class="card-title fs-4">Experience you can trust, service you can count on.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-6 mt-lg-5 mt-xl-0 col-xl-4 col-sm-12 col-md-12 mx-md-5 mx-lg-0 mt-sm-5 col-py-auto col-auto">
+                    <div class="card" style="width: 22rem;">
+                        <a href=""><img src="images/blog3.jpg" class="card-img-top img-fluid" alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text"> April 28, 2021 - <span>Creative</span></p>
+                            <h5 class="card-title fs-4">Attract and retain quality, high-paying customers</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="contact my-5 p-5">
+        <div class="container">
+            <div class="row content">
+                <div class="col-lg-5 col-xl-5 col-auto col-sm-12 col-md-5">
+                    <h3 class="title-big text-dark display-6 fw-medium">Contact us now!</h3>
+                    <p class="text-secondary fs-5">For Online queries, please call us today</p>
+                </div>
+                <div class="col-lg-7 col-xl-5 ms-4 mt-4 col-auto col-sm-12 col-md-7">
+                    <ul class="buttons d-flex">
+                        <li class="phone-sec"><span class="fa fa-volume-control-phone mr-1 fs-2 me-4"
+                                aria-hidden="true"></span>
+                            <a class="call-style-w3 fs-5 me-4 text-dark fw-medium" href="">+1(23) 456 789 0000</a>
+                        </li>
+                        <li class="green fs-5 me-3 mt-1">Or</li>
+                        <li><a href="contact" class="btn btn-style-white btn-style-primary">Get in touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-lg-2 col-auto col-sm-6 col-md-5">
+                    <div class="title">
+                        <h6 class="text-white fs-3 fw-medium mb-3">ARCHIVES</h6>
+                        <ul class="p-0">
+                            <li><a href="" class="text-white">April 2021</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-auto col-sm-6 col-md-5">
+                    <div class="title">
+                        <h6 class="text-white fs-3 fw-medium mb-3">CATEGORIES</h6>
+                        <ul class="p-0">
+                            <li class="mb-2"><a href="" class="text-white ">Business</a></li>
+                            <li class="mb-2"><a href="" class="text-white">Corporate</a></li>
+                            <li class="mb-2"><a href="" class="text-white">Creative</a></li>
+                            <li class="mb-2"><a href="" class="text-white">Design</a></li>
+                            <li class="mb-2"><a href="" class="text-white">Industry</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-auto col-sm-6 col-md-5">
+                    <div class="title">
+                        <h6 class="text-white fs-3 fw-medium mb-3">META</h6>
+                        <ul class="p-0">
+                            <li class="mb-2"><a href="" class="text-white ">Log-in</a></li>
+                            <li class="mb-2"><a href="" class="text-white">Entries feed</a></li>
+                            <li class="mb-2"><a href="" class="text-white">Comments fees</a></li>
+                            <li class="mb-2"><a href="" class="text-white">Wordpress.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-auto col-sm-6"></div>
+                <div class="col-lg-3 col-auto col-sm-6 col-md-5">
+                    <h6 class="footer-title-29 text-white fs-3 fw-medium mb-3">
+                        Contact Info </h6>
+                    <ul class="p-0">
+                        <li class="d-flex align-items-center py-2">
+                            <span class="fa fa-map-marker me-4 text-white fs-6" aria-hidden="true"></span>
+                            <a href="" class="text-white">
+                                10001, 5th Avenue, USA
+                            </a>
+                        </li>
+                        <li class="d-flex align-items-center py-2">
+                            <span class="fa fa-phone me-4 text-white fs-6" aria-hidden="true"></span>
+                            <a href="" class="text-white">
+                                +12 23456790 </a>
+                        </li>
+                        <li class="d-flex align-items-center py-2">
+                            <span class="fa fa-envelope me-4 text-white fs-6" aria-hidden="true"></span>
+                            <a href="" class="text-white">
+                                info@example.com </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- theme change -->
+    <script>
+        let icon = document.querySelector(".bi-moon");
+        let b = document.querySelector("body");
+
+        icon.addEventListener("click", function () {
+            b.classList.toggle("dark-mode");
+
+            if (b.classList.contains("dark-mode") == true) {
+                icon.classList.remove("bi-moon");
+                icon.classList.add("bi-sun");
+            } else {
+                icon.classList.remove("bi-sun");
+                icon.classList.add("bi-moon");
+            }
+        });
+    </script>
+</body>
+
+</html>

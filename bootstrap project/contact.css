@@ -1,0 +1,185 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation .nav-bar-pos {
+    background-image: linear-gradient(75deg, rgb(22 37 103 / 84%) 10%, rgb(230 2 100 / 37%));
+}
+
+.navigation .logo-text {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation .form1 {
+    position: relative;
+}
+
+.navigation a .ser {
+    position: absolute;
+    top: 30px;
+    right: 326px;
+    font-size: 25px;
+}
+
+.navigation .nav-bar-pos {
+    position: relative;
+}
+
+.navigation .pos-moon {
+    position: absolute;
+    top: 30px;
+    right: 263px;
+    font-size: 25px;
+    color: white;
+}
+
+.about-section .back-img img {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    filter: brightness(30%);
+}
+
+.about-section a {
+    text-decoration: none;
+}
+
+.contact .contact-section .address {
+    border-radius: 6px;
+    height: 70px;
+    width: 380px;
+    background-color: rgb(232, 232, 232);
+}
+
+.contact .contact-section .address button {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(230 2 100);
+    color: white;
+    border: none;
+}
+
+form .form-1 {
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.form-section input {
+    height: 60px;
+    width: 470px;
+    box-shadow: 1px 1px 5px gray;
+    border: 1px;
+}
+
+form textarea {
+    height: 150px;
+    width: 936px !important;
+    box-shadow: 1px 1px 5px gray;
+}
+
+form .btn {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(230 2 100);
+    color: white;
+    border: none;
+}
+
+form .btn:hover {
+    border: 1px solid rgb(230 2 100);
+    color: rgb(230 2 100);
+}
+
+.map-section iframe {
+    height: 370px;
+    width: 100%;
+}
+
+.footer {
+    background-image: linear-gradient(75deg, #162567 10%, #e60264);
+    padding: 110px;
+}
+
+.footer .footer-content a {
+    text-decoration: none;
+}
+
+.footer .footer-content {
+    grid-gap: 50px;
+}
+
+.dark-mode {
+    background-color: #000000e4;
+    color: white;
+}
+
+.dark-mode .bi-sun {
+    font-size: 31px;
+    color: white;
+    right: 205px;
+}
+
+.dark-mode p {
+    color: white !important;
+}
+
+.dark-mode span {
+    color: white !important;
+}
+
+.dark-mode h1 {
+    color: white !important;
+}
+
+.dark-mode h2 {
+    color: white !important;
+}
+
+.dark-mode h3 {
+    color: white !important;
+}
+
+.dark-mode h4 {
+    color: white !important;
+}
+
+.dark-mode h5 {
+    color: white !important;
+}
+
+.dark-mode h6 {
+    color: white !important;
+}
+
+.dark-mode small {
+    color: white !important;
+}
+
+.dark-mode a {
+    color: white !important;
+}
+
+.dark-mode input {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.dark-mode textarea {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.dark-mode .address {
+    background-color: #000000c8 !important;
+}

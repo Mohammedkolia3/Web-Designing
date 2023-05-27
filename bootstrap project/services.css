@@ -1,0 +1,206 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation .nav-bar-pos {
+    background-image: linear-gradient(75deg, rgb(22 37 103 / 84%) 10%, rgb(230 2 100 / 37%));
+}
+
+.navigation .logo-text {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation .form1 {
+    position: relative;
+}
+
+.navigation a .ser {
+    position: absolute;
+    top: 30px;
+    right: 326px;
+    font-size: 25px;
+}
+
+.navigation .nav-bar-pos {
+    position: relative;
+}
+
+.navigation .pos-moon {
+    position: absolute;
+    top: 30px;
+    right: 263px;
+    font-size: 25px;
+    color: white;
+}
+
+.about-section .back-img img {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    filter: brightness(30%);
+}
+
+.about-section a {
+    text-decoration: none;
+}
+
+.blog-card .card {
+    box-shadow: 0 0.125rem 0.25rem gray;
+}
+
+.blog-card .card:hover {
+    box-shadow: 2px 1px 15px gray;
+    transition: 1s all ease;
+}
+
+.blog-card .card:hover h5 {
+    color: rgb(230 2 100) !important;
+    transition: 1s all ease;
+}
+
+.services {
+    background-color: #f9f9f9;
+}
+
+.services .service-content .text-box {
+    height: 290px;
+    width: 550px;
+    background-color: white;
+    padding: 60px;
+}
+
+.services .service-content .text-box:hover {
+    box-shadow: 2px 2px 10px gray;
+    transition: 500ms all ease;
+}
+
+.services .service-content .text-box a {
+    text-decoration: none;
+}
+
+.services .service-content .text-box :hover a {
+    color: #e80566 !important;
+}
+
+.services .service-content .text-box span {
+    color: navy;
+}
+
+.services .end-button .btn {
+    height: 50px;
+    width: 260px;
+    background-color: #e80566;
+    color: white;
+    font-size: 20px;
+}
+
+.services .end-button .btn:hover {
+    background-color: transparent;
+    border: 1px solid #e80566;
+    color: #e80566;
+}
+
+.contact .content span {
+    color: #e80566;
+}
+
+.contact .content a {
+    text-decoration: none;
+}
+
+.contact .content .btn {
+    height: 45px;
+    width: 170px;
+    background-color: #e80566;
+    color: white;
+    font-size: 19px;
+}
+
+.contact .content .btn:hover {
+    background-color: transparent;
+    border: 1px solid #e80566;
+    color: #e80566;
+}
+
+.footer {
+    background-image: linear-gradient(75deg, #162567 10%, #e60264);
+    padding: 110px;
+}
+
+.footer .footer-content a {
+    text-decoration: none;
+}
+
+.footer .footer-content {
+    grid-gap: 50px;
+}
+
+.dark-mode {
+    background-color: #000000e4;
+    color: white;
+}
+
+.dark-mode .bi-sun {
+    font-size: 31px;
+    color: white;
+    right: 205px;
+}
+
+.dark-mode p {
+    color: white !important;
+}
+
+.dark-mode span {
+    color: white !important;
+}
+
+.dark-mode h1 {
+    color: white !important;
+}
+
+.dark-mode h3 {
+    color: white !important;
+}
+
+.dark-mode h4 {
+    color: white !important;
+}
+
+.dark-mode h5 {
+    color: white !important;
+}
+
+.dark-mode h6 {
+    color: white !important;
+}
+
+.dark-mode small {
+    color: white !important;
+}
+
+.dark-mode a {
+    color: white !important;
+}
+
+.dark-mode .services {
+    background-color: #000000e4;
+    ;
+}
+
+.dark-mode .services .service-content .text-box {
+    background-color: #000000ab;
+    ;
+}
+
+.dark-mode .card-body {
+    background-color: #000000c6 !important;
+}

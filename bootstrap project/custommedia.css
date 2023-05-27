@@ -1,0 +1,47 @@
+@media(max-width:576px) {
+    .navigation .search .ser {
+        right: 200px;
+    }
+
+    .navigation .search .bi-moon {
+        right: 150px;
+    }
+
+    form .form-1 {
+        padding: 0;
+    }
+}
+
+@media(min-width:768px) {
+    .footer .footer-content {
+        grid-gap: 20px;
+    }
+
+    form textarea {
+        margin-left: -20px !important;
+    }
+}
+
+@media(min-width:992px) {
+    .navigation .search .ser {
+        right: 150px;
+    }
+
+    .navigation .search .bi-moon {
+        right: 100px;
+    }
+
+    .footer .footer-content {
+        grid-gap: 32px;
+    }
+}
+
+@media(min-width:1200px) {
+    .navigation .search .ser {
+        right: 300px;
+    }
+
+    .navigation .search .bi-moon {
+        right: 210px;
+    }
+}
