@@ -1,0 +1,8 @@
+@media(max-width : 1200px){
+    .home-content h1{
+    font-size: 4.5rem;
+   }
+   .home-content .text-animate h3{
+    font-size: 2.5rem;
+   }
+}
